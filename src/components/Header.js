@@ -1,15 +1,20 @@
 import React from "react";
+import "./Header.css";
+import companyLogo from "../assets/logoempresas/GeCode.webp"; // Reemplaza con la ruta correcta a tu logo
 
 const Header = () => (
   <header>
-    <h1>Mi Portafolio</h1>
+    <div className="logo-container">
+      <img src={companyLogo} alt="Company Logo" className="company-logo" />
+    </div>
+    <h1></h1>
     <nav>
       <ul>
         <li>
           <a href="#home">Inicio</a>
         </li>
         <li>
-          <a href="#about">Sobre Mí</a>
+          <a href="#about">Quienes somos</a>
         </li>
         <li>
           <a href="#projects">Proyectos</a>
