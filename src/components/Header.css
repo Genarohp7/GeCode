@@ -5,6 +5,12 @@ header {
   background-color: #11468f;
   color: white;
   padding: 1rem 2rem;
+  transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+header.scrolled {
+  background-color: #0b3a6f;
+  padding: 0.5rem 2rem;
 }
 
 .logo-container {
