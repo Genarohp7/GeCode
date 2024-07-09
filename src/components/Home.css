@@ -69,11 +69,10 @@
   width: 30vw; /* Incrementar el tamaño de la imagen en un 20% */
   height: auto;
   border-radius: 8px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.1s ease, box-shadow 0.3s ease;
 }
 
 .home-image:hover {
-  transform: translateZ(30px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
